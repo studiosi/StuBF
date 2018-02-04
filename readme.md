@@ -9,6 +9,7 @@ We follow the more traditional Brainf*ck definition (or try to)
 * Signed 8-bit memory cells
 * 30000 memory cells
 * No limit on jump nesting
+* No wrapping on the memory handling
 
 ## Contents
 
