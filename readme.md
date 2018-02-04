@@ -2,6 +2,14 @@
 
 "The Completionist" aims to be a collection of projects that aim to be completed relatively fast, while learning. In the first installment of the series, a Brainf*ck interpreter. To learn more about what this is, you can check https://en.wikipedia.org/wiki/Brainfuck
 
+## Assumptions
+
+We follow the more traditional Brainf*ck definition (or try to)
+
+* Signed 8-bit memory cells
+* 30000 memory cells
+* No limit on jump nesting
+
 ## Contents
 
 Apart from the source code and a Visual Studio 2015 solution, the project contains several examples of Brainf*ck programs under the "Examples" folder. All of them have been tested with the interpreter. You can also contribute examples as the aim is to build a collection as extensive as possible.
