@@ -14,11 +14,8 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Examples">
-      <UniqueIdentifier>{28f0c04d-2b6d-4dbd-b48d-e6077804fe8f}</UniqueIdentifier>
+      <UniqueIdentifier>{7ea53ebe-5331-482b-93c7-24c11cb00f17}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -37,7 +34,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="A.bf">
+    <None Include="..\Examples\A.bf">
+      <Filter>Examples</Filter>
+    </None>
+    <None Include="..\Examples\HelloWorld.bf">
+      <Filter>Examples</Filter>
+    </None>
+    <None Include="..\Examples\TestOverflow.bf">
+      <Filter>Examples</Filter>
+    </None>
+    <None Include="..\readme.md" />
+    <None Include="..\Examples\Rot13.bf">
+      <Filter>Examples</Filter>
+    </None>
+    <None Include="..\Examples\Sierpinski.bf">
       <Filter>Examples</Filter>
     </None>
   </ItemGroup>
